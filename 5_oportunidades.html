@@ -1,0 +1,236 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Oportunidades - Guia de Sobrevivência na FCT</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="0_intro.html"><strong aria-hidden="true">1.</strong> Hello, world!</a></li><li class="chapter-item expanded "><a href="1_primeiros-passos.html"><strong aria-hidden="true">2.</strong> Primeiros passos</a></li><li class="chapter-item expanded "><a href="2_direitos-do-aluno.html"><strong aria-hidden="true">3.</strong> Direitos do aluno</a></li><li class="chapter-item expanded "><a href="3_o-que-preciso-fazer-para-me-formar.html"><strong aria-hidden="true">4.</strong> O que preciso fazer para me formar?</a></li><li class="chapter-item expanded "><a href="4_locais-importantes.html"><strong aria-hidden="true">5.</strong> Locais importantes</a></li><li class="chapter-item expanded "><a href="5_oportunidades.html" class="active"><strong aria-hidden="true">6.</strong> Oportunidades</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Guia de Sobrevivência na FCT</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="oportunidades"><a class="header" href="#oportunidades"><a name="_heading=h.t0ov21iz9b6i"></a>Oportunidades</a></h1>
+<h2 id="estágio"><a class="header" href="#estágio"><a name="_heading=h.2p9l7te6uci6"></a>Estágio</a></h2>
+<p>Existem duas modalidades de estágio: o <strong>obrigatório</strong> e o <strong>não obrigatório</strong>. Estágio obrigatório é uma componente curricular, logo, o aluno precisa realizá-lo para estar apto a se formar. Estágio não obrigatório é uma atividade que não é contabilizada como estágio, mas pode ser aproveitada como atividade complementar que também é critério fundamental para a integralização do curso.</p>
+<p>Você pode fazer estágio desde o início do curso. Neste caso, será um estágio não obrigatório que poderá ser creditado, como pautado no tópico anterior,  como atividade complementar. Em caso de estágio obrigatório, só será possível desenvolver a partir do 5° período.</p>
+<h3 id="para-estagiar-você-precisa"><a class="header" href="#para-estagiar-você-precisa"><a name="_heading=h.3an2q0d0qhsl"></a>Para estagiar você precisa:</a></h3>
+<ul>
+<li>Estar matriculado no período letivo atual;</li>
+<li>Verificar se a empresa possui <strong>convênio</strong> com a UFPA;</li>
+<li>Caso não tenha convênio, é possível solicitar o cadastro;</li>
+<li>Encaminhamento da Central de estágios;</li>
+<li>Providenciar o <strong>Plano de Estágio;</strong></li>
+<li>Providenciar <strong>Termo de Compromisso</strong> entre o aluno, UFPA e a empresa:
+<ul>
+<li>Em caso de <strong>estágio obrigatório</strong>, quem assina no campo da UFPA é a faculdade.</li>
+<li>Em caso de <strong>estágio não obrigatório,</strong> quem assina e trata das questões do estágio é a central de estágios. Nesse caso, a faculdade ainda cuida de avaliar o plano de estágio.</li>
+</ul>
+</li>
+</ul>
+<p>No caso de <strong>estágio obrigatório,</strong> a solicitação de matrícula em estágio deve ser realizada via SAGITTA. Além disso, A UFPA fornece seguro de vida para discentes em estágio obrigatório.</p>
+<p>Para mais informações sobre estágio e todas as documentações citadas, acesse as <a href="http://acesse.one/passo-a-passo-estagioFCT">diretrizes oficiais da faculdade</a>.</p>
+<h3 id="onde-encontro-oportunidades-de-estágio"><a class="header" href="#onde-encontro-oportunidades-de-estágio"><a name="_heading=h.qutv6o3zwqmk"></a>Onde encontro oportunidades de estágio?</a></h3>
+<ul>
+<li><a href="https://www.instagram.com/estagios.itec.ufpa/?next=%2F">Central de estágios do ITEC</a></li>
+<li><a href="http://centraldeestagios.ufpa.br/view/inicio/">Central de estágios UFPA</a></li>
+<li><a href="https://t.me/caecom">Telegram alunos FCT</a></li>
+<li><a href="https://play.google.com/store/apps/details?id=br.ufpa.ccsl.ufpadigital&amp;hl=pt_BR&amp;gl=US">App UFPA Digital</a></li>
+<li><a href="https://sigaa.ufpa.br/sigaa/verTelaLogin.do">SIGAA</a></li>
+<li><a href="https://web.ciee.org.br/">CIEE</a></li>
+<li><a href="https://www.iel-pa.org.br/">IEL</a></li>
+</ul>
+<h2 id="laboratórios-de-pesquisa"><a class="header" href="#laboratórios-de-pesquisa"><a name="_heading=h.368bub1d4vsx"></a>Laboratórios de pesquisa</a></h2>
+<h3 id="gercom-ufpa"><a class="header" href="#gercom-ufpa"><a name="_heading=h.s8cxlohlyeeb"></a>GERCOM UFPA</a></h3>
+<p>O Grupo de Estudos em Redes de Computadores e Comunicação Multimídia (GERCOM) foi fundados em 2003 e conta com 7 professores doutores, 12 alunos de doutorado, 20 alunos de mestrado e 20 alunos de iniciação científica para promover soluções inovadoras na área de redes de ópticas, redes sem fio, redes de sensores, segurança, redes tolerantes a falhas e desconexões, gerência de rede, aplicações para cidades inteligentes e sistemas multimídia.</p>
+<ul>
+<li><strong>Responsáveis:</strong> Prof. Dr. Antônio Abelém, Prof. Dr. Eduardo Coelho Cerqueira e  Prof. Dr. Denis Lima do Rosário.</li>
+<li><strong>Localização:</strong> Anexo do LEEC, à esquerda do LABCOM I.</li>
+<li><strong>Contatos:</strong> (91) 99641-4275 | (91) 3201-7159 | <a href="mailto:abelem@ufpa.br">abelem@ufpa.br</a> | <a href="mailto:cerqueira@ufpa.br">cerqueira@ufpa.br</a> </li>
+<li><strong>Mais informações: <a href="http://gercom.ufpa.br/">Website</a></strong> | <a href="http://dgp.cnpq.br/dgp/espelhogrupo/4057466564028557">Grupo no CNPq</a></li>
+</ul>
+<h3 id="lamic"><a class="header" href="#lamic"><a name="_heading=h.jo8ang9tys7d"></a>LaMIC</a></h3>
+<p>O uso da tecnologia para criar ambientes que ajudem o cidadão a ter qualidade de vida constitui-se em uma das missões do Laboratório de Monitoramento Inteligente e Soluções em Telecomunicações (LaMIC) e que também abrange o provimento de facilidades para a formação de recursos humanos altamente qualificados e comprometidos com o desenvolvimento da região e do Brasil.</p>
+<ul>
+<li><strong>Responsáveis:</strong> Prof. Dr. Agostinho Luiz da Silva Castro, Profa. Dra. Adriana Rosa Garcez Castro, Prof. M.Sc Eurípedes Pinheiros dos Santos e Prof. Dr. Ronaldo de Freitas Zampolo.</li>
+<li><strong>Localização:</strong> Anexo do LEEC</li>
+<li><strong>Mais informações: <a href="https://lamic.ufpa.br/">https://lamic.ufpa.br/</a></strong> </li>
+</ul>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="4_locais-importantes.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="4_locais-importantes.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>
