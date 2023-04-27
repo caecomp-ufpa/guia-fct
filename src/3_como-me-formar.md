@@ -1,4 +1,4 @@
-# <a name="_heading=h.oqlwafqw3f7z"></a>O que preciso fazer para me formar?
+# <a name="_heading=h.oqlwafqw3f7z"></a>Como me formar?
 Se você está em um jogo e não sabe como ganhar, dificilmente você ganha. Se você está em uma faculdade e não sabe como se formar, dificilmente você se forma (hehe). Brincadeiras à parte, esta é uma das perguntas mais importantes a serem feitas desde o começo do curso: “o que preciso fazer para me formar?”
 
 Diferente da escola, não basta apenas ser aprovado nas disciplinas. Atualmente (12/03/2023), para receber seu diploma, você precisa concluir:
