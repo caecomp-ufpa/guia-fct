@@ -1,5 +1,6 @@
 # <a name="_heading=h.1fob9te"></a>Introdução
 ## <a name="_heading=h.uz7gn521sptx"></a>Objetivo
+EDIT
 Este manual tem como objetivo orientar você, discente, recém-chegado à universidade, que muitas vezes se encontra perdido em uma gama de possibilidades que o ambiente acadêmico oferece, sem saber por onde começar, ou mesmo nem tem idéia de todas as oportunidades dentro dele.
 
 Acreditamos que se estiverem cientes do quanto a experiência acadêmica pode ser transformadora desde o início da sua trajetória no curso escolhido, o discente terá um engajamento e rendimento mais proveitoso em seu curso, sem contar os diversos benefícios para sua vida pessoal e profissional.
