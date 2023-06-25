@@ -1,6 +1,11 @@
 [book]
-authors = ["CAECOM"]
-language = "en"
+authors = ["CAECOMP"]
+language = "pt"
 multilingual = false
 src = "src"
-title = "Guia de Sobrevivência na FCT"
+title = "Guia do Mochileiro de EngComp"
+
+[output.html]
+git-repository-url = "https://github.com/caecomUfpa/guia-fct"
+git-repository-icon = "fa-github"
+edit-url-template = "https://github.com/caecomUfpa/guia-fct/edit/main/{path}"
