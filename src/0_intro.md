@@ -1,4 +1,7 @@
 # <a name="_heading=h.1fob9te"></a>Introdução
+
+![Capa](../img/capa.png)
+
 ## <a name="_heading=h.uz7gn521sptx"></a>Objetivo
 Este manual foi construído de alunos para alunos. Seu objetivo é orientar os discentes da FCT, em meio à gama de possibilidades que o ambiente acadêmico oferece.
 
