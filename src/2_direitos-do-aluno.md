@@ -61,4 +61,4 @@ Objetiva a participação de estudantes de graduação em monitorias que intenta
 - Email Institucional: Emails enviados pelo **Divulga - UFPA (<divulga@ufpa.br>).** 
 - Email vinculado ao Sigaa: Emails enviados pelo **Sistemas/UFPA (<ctic_sistemas@ufpa.br>)** costumam trazer oportunidades de estágios, bolsas, cursos de capacitação, dentre outros. Mas, atenção, acima estão os endereços **oficiais** destes emails.
 - Central de estágios da UFPa: Link para acesso em: [Central de Estágios](http://www.centraldeestagios.ufpa.br/view/inicio/). Basta fazer login e senha para o acesso às vagas. Mais informações sobre estágios no link acima e em [Cartilha de Estágio 2020.ai](http://centraldeestagios.ufpa.br/view/inicio/downloadArquivo.php?idArquivo=233)
-- Aplicativo UFPA Digital: Disponível para download na Play Store e App Store.
+- Aplicativo UFPA Digital: Disponível para download na [Play Store](https://play.google.com/store/apps/details?id=br.ufpa.ccsl.ufpadigital&hl=pt_BR&gl=US) e [App Store](https://apps.apple.com/br/app/ufpa-digital/id1612856777).
